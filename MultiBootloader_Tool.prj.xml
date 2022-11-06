@@ -27,8 +27,8 @@
 		<Kid sr="Kid">
 			<launchID>4</launchID>
 			<pkg>com.symbuzzer.multibootloader</pkg>
-			<vnme>1.00</vnme>
-			<vnum>53</vnum>
+			<vnme>1.10</vnme>
+			<vnum>54</vnum>
 		</Kid>
 		<Img sr="icon" ve="2">
 			<cls>com.android.development.Development</cls>
@@ -235,7 +235,7 @@
 		<Action sr="act7" ve="7">
 			<code>118</code>
 			<se>false</se>
-			<Str sr="arg0" ve="3">avalibeyaz.com/multibootloader/multibootloader.img</Str>
+			<Str sr="arg0" ve="3">https://github.com/symbuzzer/nokia-x2-multibootloader-kernel-binaries/blob/main/multibootloader.img</Str>
 			<Str sr="arg1" ve="3"/>
 			<Str sr="arg2" ve="3"/>
 			<Str sr="arg3" ve="3"/>
@@ -295,7 +295,7 @@
 		<Action sr="act12" ve="7">
 			<code>118</code>
 			<se>false</se>
-			<Str sr="arg0" ve="3">avalibeyaz.com/multibootloader/cm11_ext.zip</Str>
+			<Str sr="arg0" ve="3">https://github.com/symbuzzer/nokia-x2-multibootloader-kernel-binaries/blob/main/cm11_ext.zip</Str>
 			<Str sr="arg1" ve="3"/>
 			<Str sr="arg2" ve="3"/>
 			<Str sr="arg3" ve="3"/>
@@ -327,7 +327,7 @@
 		<Action sr="act16" ve="7">
 			<code>118</code>
 			<se>false</se>
-			<Str sr="arg0" ve="3">avalibeyaz.com/multibootloader/stock_nand.zip</Str>
+			<Str sr="arg0" ve="3">https://github.com/symbuzzer/nokia-x2-multibootloader-kernel-binaries/blob/main/stock_nand.zip</Str>
 			<Str sr="arg1" ve="3"/>
 			<Str sr="arg2" ve="3"/>
 			<Str sr="arg3" ve="3"/>
@@ -367,7 +367,7 @@
 		<Action sr="act20" ve="7">
 			<code>118</code>
 			<se>false</se>
-			<Str sr="arg0" ve="3">avalibeyaz.com/multibootloader/stock_ext.zip</Str>
+			<Str sr="arg0" ve="3">https://github.com/symbuzzer/nokia-x2-multibootloader-kernel-binaries/blob/main/stock_ext.zip</Str>
 			<Str sr="arg1" ve="3"/>
 			<Str sr="arg2" ve="3"/>
 			<Str sr="arg3" ve="3"/>
@@ -455,7 +455,7 @@
 		<Action sr="act8" ve="7">
 			<code>118</code>
 			<se>false</se>
-			<Str sr="arg0" ve="3">avalibeyaz.com/multibootloader/cm11_nand.zip</Str>
+			<Str sr="arg0" ve="3">https://github.com/symbuzzer/nokia-x2-multibootloader-kernel-binaries/blob/main/cm11_nand.zip</Str>
 			<Str sr="arg1" ve="3"/>
 			<Str sr="arg2" ve="3"/>
 			<Str sr="arg3" ve="3"/>
@@ -535,7 +535,7 @@
 		<Action sr="act4" ve="7">
 			<code>118</code>
 			<se>false</se>
-			<Str sr="arg0" ve="3">avalibeyaz.com/multibootloader/multibootloader.txt</Str>
+			<Str sr="arg0" ve="3">https://github.com/symbuzzer/nokia-x2-multibootloader-kernel-binaries/blob/main/multibootloader.txt</Str>
 			<Str sr="arg1" ve="3"/>
 			<Str sr="arg2" ve="3"/>
 			<Str sr="arg3" ve="3"/>
@@ -599,7 +599,7 @@
 		<Action sr="act10" ve="7">
 			<code>118</code>
 			<se>false</se>
-			<Str sr="arg0" ve="3">avalibeyaz.com/multibootloader/multibootloader.txt</Str>
+			<Str sr="arg0" ve="3">https://github.com/symbuzzer/nokia-x2-multibootloader-kernel-binaries/blob/main/multibootloader.txt</Str>
 			<Str sr="arg1" ve="3"/>
 			<Str sr="arg2" ve="3"/>
 			<Str sr="arg3" ve="3"/>
@@ -930,7 +930,7 @@
 		<Action sr="act10" ve="7">
 			<code>118</code>
 			<se>false</se>
-			<Str sr="arg0" ve="3">avalibeyaz.com/multibootloader/stock_ext.zip</Str>
+			<Str sr="arg0" ve="3">https://github.com/symbuzzer/nokia-x2-multibootloader-kernel-binaries/blob/main/stock_ext.zip</Str>
 			<Str sr="arg1" ve="3"/>
 			<Str sr="arg2" ve="3"/>
 			<Str sr="arg3" ve="3"/>
@@ -1011,7 +1011,7 @@
 		<Action sr="act7" ve="7">
 			<code>118</code>
 			<se>false</se>
-			<Str sr="arg0" ve="3">avalibeyaz.com/multibootloader/cm11_nand.zip</Str>
+			<Str sr="arg0" ve="3">https://github.com/symbuzzer/nokia-x2-multibootloader-kernel-binaries/blob/main/cm11_nand.zip</Str>
 			<Str sr="arg1" ve="3"/>
 			<Str sr="arg2" ve="3"/>
 			<Str sr="arg3" ve="3"/>
@@ -1024,7 +1024,7 @@
 		<Action sr="act8" ve="7">
 			<code>118</code>
 			<se>false</se>
-			<Str sr="arg0" ve="3">avalibeyaz.com/multibootloader/cm11_ext.zip</Str>
+			<Str sr="arg0" ve="3">https://github.com/symbuzzer/nokia-x2-multibootloader-kernel-binaries/blob/main/cm11_ext.zip</Str>
 			<Str sr="arg1" ve="3"/>
 			<Str sr="arg2" ve="3"/>
 			<Str sr="arg3" ve="3"/>
@@ -1037,7 +1037,7 @@
 		<Action sr="act9" ve="7">
 			<code>118</code>
 			<se>false</se>
-			<Str sr="arg0" ve="3">avalibeyaz.com/multibootloader/stock_nand.zip</Str>
+			<Str sr="arg0" ve="3">https://github.com/symbuzzer/nokia-x2-multibootloader-kernel-binaries/blob/main/stock_nand.zip</Str>
 			<Str sr="arg1" ve="3"/>
 			<Str sr="arg2" ve="3"/>
 			<Str sr="arg3" ve="3"/>
