@@ -1,0 +1,1067 @@
+<TaskerData sr="" dvi="1" tv="4.7u3m">
+	<dmetric>480.0,800.0</dmetric>
+	<Profile sr="prof12" ve="2">
+		<cdate>1447054394259</cdate>
+		<clp>true</clp>
+		<edate>1446239919657</edate>
+		<id>12</id>
+		<mid0>4</mid0>
+		<nme>Click</nme>
+		<Event sr="con0" ve="2">
+			<code>2000</code>
+			<pri>0</pri>
+			<App sr="arg0">
+				<appClass>net.dinglisch.android.tasker.Kid</appClass>
+				<appPkg>com.symbuzzer.multibootloader</appPkg>
+				<label>MultiBootloader Tool</label>
+			</App>
+			<Str sr="arg1" ve="3"/>
+		</Event>
+	</Profile>
+	<Project sr="proj0" ve="2">
+		<cdate>1446028956943</cdate>
+		<name>MultiBootloader Tool</name>
+		<pids>12</pids>
+		<scenes>Main</scenes>
+		<tids>2,8,11,4,3,5,6,9,7,10</tids>
+		<Kid sr="Kid">
+			<launchID>4</launchID>
+			<pkg>com.symbuzzer.multibootloader</pkg>
+			<vnme>1.00</vnme>
+			<vnum>53</vnum>
+		</Kid>
+		<Img sr="icon" ve="2">
+			<cls>com.android.development.Development</cls>
+			<pkg>com.android.development</pkg>
+		</Img>
+	</Project>
+	<Scene sr="sceneMain">
+		<cdate>1446031654879</cdate>
+		<edate>1446240431987</edate>
+		<gridSize>10</gridSize>
+		<heightLand>-1</heightLand>
+		<heightPort>295</heightPort>
+		<nme>Main</nme>
+		<widthLand>-1</widthLand>
+		<widthPort>312</widthPort>
+		<ImageElement sr="elements0" ve="2">
+			<flags>4</flags>
+			<geom>19,263,29,29,0,0,312,284</geom>
+			<Str sr="arg0" ve="3">Image1</Str>
+			<Img sr="arg1" ve="2">
+				<cls>com.android.development.Development</cls>
+				<pkg>com.android.development</pkg>
+			</Img>
+			<Int sr="arg2" val="255"/>
+			<Str sr="arg3" ve="3">#FF0099CC</Str>
+		</ImageElement>
+		<ButtonElement sr="elements1" ve="3">
+			<clickTask>10</clickTask>
+			<flags>4</flags>
+			<geom>9,0,293,87,0,169,311,87</geom>
+			<Str sr="arg0" ve="3">Button1</Str>
+			<Str sr="arg1" ve="3">Download &amp; Install MultiBootloader</Str>
+			<Int sr="arg2" val="16"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FFFFFCFC</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Img sr="arg7" ve="2"/>
+		</ButtonElement>
+		<ButtonElement sr="elements2" ve="3">
+			<clickTask>6</clickTask>
+			<flags>4</flags>
+			<geom>9,88,293,87,9,208,292,87</geom>
+			<Str sr="arg0" ve="3">Button2</Str>
+			<Str sr="arg1" ve="3">Download Kernels</Str>
+			<Int sr="arg2" val="16"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FFFFFFFF</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Img sr="arg7" ve="2"/>
+		</ButtonElement>
+		<ButtonElement sr="elements3" ve="3">
+			<clickTask>9</clickTask>
+			<flags>4</flags>
+			<geom>9,176,292,87,9,295,292,87</geom>
+			<Str sr="arg0" ve="3">Button3</Str>
+			<Str sr="arg1" ve="3">Reboot</Str>
+			<Int sr="arg2" val="16"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FFFFFFFF</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Img sr="arg7" ve="2"/>
+		</ButtonElement>
+		<TextElement sr="elements4" ve="3">
+			<flags>4</flags>
+			<geom>107,263,194,29,97,254,204,29</geom>
+			<Str sr="arg0" ve="3">Text1</Str>
+			<Str sr="arg1" ve="3">by Ali BEYAZ aka Symbuzzer@XDA</Str>
+			<Int sr="arg2" val="7"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FFFFFFFF</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="4"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+		</TextElement>
+		<TextElement sr="elements5" ve="3">
+			<flags>4</flags>
+			<geom>48,263,68,29,9,254,105,29</geom>
+			<Str sr="arg0" ve="3">Text2</Str>
+			<Str sr="arg1" ve="3">v%Ver</Str>
+			<Int sr="arg2" val="7"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FFFFFFFF</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="3"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+		</TextElement>
+		<PropertiesElement sr="props">
+			<Int sr="arg0" val="1"/>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg2" ve="3">#2E000000</Str>
+			<Int sr="arg3" val="0"/>
+			<Str sr="arg4" ve="3">Main</Str>
+			<Str sr="arg5" ve="3"/>
+			<Img sr="arg6" ve="2"/>
+			<Str sr="arg7" ve="3"/>
+		</PropertiesElement>
+	</Scene>
+	<Task sr="task10">
+		<cdate>1446037607042</cdate>
+		<edate>1446037607042</edate>
+		<id>10</id>
+		<pri>102</pri>
+		<Action sr="act0" ve="7">
+			<code>341</code>
+			<Int sr="arg0" val="0"/>
+			<Str sr="arg1" ve="3"/>
+			<Str sr="arg2" ve="3">%ConnType</Str>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%ConnType</lhs>
+					<op>3</op>
+					<rhs>none</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">BootloaderDL</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>43</code>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>49</code>
+			<se>false</se>
+			<Str sr="arg0" ve="3">Main</Str>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">Sorry, need internet connection</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>38</code>
+		</Action>
+	</Task>
+	<Task sr="task11">
+		<cdate>1446036010526</cdate>
+		<edate>1446240053852</edate>
+		<id>11</id>
+		<nme>BootloaderDL</nme>
+		<Action sr="act0" ve="7">
+			<code>65</code>
+			<Str sr="arg0" ve="3">Main</Str>
+			<Str sr="arg1" ve="3">Button1</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>65</code>
+			<Str sr="arg0" ve="3">Main</Str>
+			<Str sr="arg1" ve="3">Button2</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>65</code>
+			<Str sr="arg0" ve="3">Main</Str>
+			<Str sr="arg1" ve="3">Button3</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>523</code>
+			<Str sr="arg0" ve="3">MultiBootloader Tool</Str>
+			<Str sr="arg1" ve="3">Downloading MultiBootloader...</Str>
+			<Img sr="arg2" ve="2"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="1"/>
+			<Int sr="arg5" val="1"/>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%IsBusy</Str>
+			<Str sr="arg1" ve="3">yes</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>49</code>
+			<se>false</se>
+			<Str sr="arg0" ve="3">Main</Str>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>46</code>
+			<se>false</se>
+			<Str sr="arg0" ve="3">Main</Str>
+		</Action>
+		<Action sr="act7" ve="7">
+			<code>118</code>
+			<se>false</se>
+			<Str sr="arg0" ve="3">avalibeyaz.com/multibootloader/multibootloader.img</Str>
+			<Str sr="arg1" ve="3"/>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="120"/>
+			<Str sr="arg6" ve="3">application/*</Str>
+			<Str sr="arg7" ve="3">/sdcard/TWRP/multibootloader.img</Str>
+			<Int sr="arg8" val="1"/>
+		</Action>
+		<Action sr="act8" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">CheckBootloader</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+	</Task>
+	<Task sr="task2">
+		<cdate>1446101818761</cdate>
+		<edate>1446153313109</edate>
+		<id>2</id>
+		<nme>CheckKernel</nme>
+		<pri>100</pri>
+		<Action sr="act0" ve="7">
+			<code>342</code>
+			<se>false</se>
+			<Int sr="arg0" val="3"/>
+			<Str sr="arg1" ve="3">/sdcard/TWRP/cm11_nand.kernel</Str>
+			<Str sr="arg2" ve="3">%Cm11NandSize</Str>
+			<Int sr="arg3" val="1"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>342</code>
+			<se>false</se>
+			<Int sr="arg0" val="3"/>
+			<Str sr="arg1" ve="3">/sdcard/TWRP/cm11_ext.kernel</Str>
+			<Str sr="arg2" ve="3">%Cm11ExtSize</Str>
+			<Int sr="arg3" val="1"/>
+		</Action>
+		<Action sr="act10" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act11" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%Cm11ExtSize</lhs>
+					<op>1</op>
+					<rhs>4395008</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act12" ve="7">
+			<code>118</code>
+			<se>false</se>
+			<Str sr="arg0" ve="3">avalibeyaz.com/multibootloader/cm11_ext.zip</Str>
+			<Str sr="arg1" ve="3"/>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="120"/>
+			<Str sr="arg6" ve="3">application/zip</Str>
+			<Str sr="arg7" ve="3">/sdcard/TWRP/cm11_ext.zip</Str>
+			<Int sr="arg8" val="1"/>
+		</Action>
+		<Action sr="act13" ve="7">
+			<code>422</code>
+			<se>false</se>
+			<Str sr="arg0" ve="3">/sdcard/TWRP/cm11_ext.zip</Str>
+			<Int sr="arg1" val="1"/>
+		</Action>
+		<Action sr="act14" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act15" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%StockNandSize</lhs>
+					<op>1</op>
+					<rhs>10485760</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act16" ve="7">
+			<code>118</code>
+			<se>false</se>
+			<Str sr="arg0" ve="3">avalibeyaz.com/multibootloader/stock_nand.zip</Str>
+			<Str sr="arg1" ve="3"/>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="120"/>
+			<Str sr="arg6" ve="3">application/zip</Str>
+			<Str sr="arg7" ve="3">/sdcard/TWRP/stock_nand.zip</Str>
+			<Int sr="arg8" val="1"/>
+		</Action>
+		<Action sr="act17" ve="7">
+			<code>422</code>
+			<se>false</se>
+			<Str sr="arg0" ve="3">/sdcard/TWRP/stock_nand.zip</Str>
+			<Int sr="arg1" val="1"/>
+		</Action>
+		<Action sr="act18" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act19" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%StockExtSize</lhs>
+					<op>1</op>
+					<rhs>7448576</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>342</code>
+			<se>false</se>
+			<Int sr="arg0" val="3"/>
+			<Str sr="arg1" ve="3">/sdcard/TWRP/stock_nand.kernel</Str>
+			<Str sr="arg2" ve="3">%StockNandSize</Str>
+			<Int sr="arg3" val="1"/>
+		</Action>
+		<Action sr="act20" ve="7">
+			<code>118</code>
+			<se>false</se>
+			<Str sr="arg0" ve="3">avalibeyaz.com/multibootloader/stock_ext.zip</Str>
+			<Str sr="arg1" ve="3"/>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="120"/>
+			<Str sr="arg6" ve="3">application/zip</Str>
+			<Str sr="arg7" ve="3">/sdcard/TWRP/stock_ext.zip</Str>
+			<Int sr="arg8" val="1"/>
+		</Action>
+		<Action sr="act21" ve="7">
+			<code>422</code>
+			<se>false</se>
+			<Str sr="arg0" ve="3">/sdcard/TWRP/stock_ext.zip</Str>
+			<Int sr="arg1" val="1"/>
+		</Action>
+		<Action sr="act22" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act23" ve="7">
+			<code>135</code>
+			<Int sr="arg0" val="0"/>
+			<Int sr="arg1" val="1"/>
+			<Str sr="arg2" ve="3"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>342</code>
+			<se>false</se>
+			<Int sr="arg0" val="3"/>
+			<Str sr="arg1" ve="3">/sdcard/TWRP/stock_ext.kernel</Str>
+			<Str sr="arg2" ve="3">%StockExtSize</Str>
+			<Int sr="arg3" val="1"/>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<bool0>And</bool0>
+				<bool1>And</bool1>
+				<bool2>And</bool2>
+				<Condition sr="c0" ve="3">
+					<lhs>%Cm11NandSize</lhs>
+					<op>0</op>
+					<rhs>4397056</rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%Cm11ExtSize</lhs>
+					<op>0</op>
+					<rhs>4395008</rhs>
+				</Condition>
+				<Condition sr="c2" ve="3">
+					<lhs>%StockNandSize</lhs>
+					<op>0</op>
+					<rhs>10485760</rhs>
+				</Condition>
+				<Condition sr="c3" ve="3">
+					<lhs>%StockExtSize</lhs>
+					<op>0</op>
+					<rhs>7448576</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">KernelDLComplete</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="1"/>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act7" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%Cm11NandSize</lhs>
+					<op>1</op>
+					<rhs>4397056</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act8" ve="7">
+			<code>118</code>
+			<se>false</se>
+			<Str sr="arg0" ve="3">avalibeyaz.com/multibootloader/cm11_nand.zip</Str>
+			<Str sr="arg1" ve="3"/>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="120"/>
+			<Str sr="arg6" ve="3">application/zip</Str>
+			<Str sr="arg7" ve="3">/sdcard/TWRP/cm11_nand.zip</Str>
+			<Int sr="arg8" val="1"/>
+		</Action>
+		<Action sr="act9" ve="7">
+			<code>422</code>
+			<se>false</se>
+			<Str sr="arg0" ve="3">/sdcard/TWRP/cm11_nand.zip</Str>
+			<Int sr="arg1" val="1"/>
+		</Action>
+	</Task>
+	<Task sr="task3">
+		<cdate>1446102418054</cdate>
+		<edate>1447054426401</edate>
+		<id>3</id>
+		<nme>CheckBootloader</nme>
+		<Action sr="act0" ve="7">
+			<code>342</code>
+			<se>false</se>
+			<Int sr="arg0" val="3"/>
+			<Str sr="arg1" ve="3">/sdcard/TWRP/multibootloader.img</Str>
+			<Str sr="arg2" ve="3">%MbSize</Str>
+			<Int sr="arg3" val="1"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<bool0>And</bool0>
+				<Condition sr="c0" ve="3">
+					<lhs>%MbSize</lhs>
+					<op>7</op>
+					<rhs>7500000</rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%MbSize</lhs>
+					<op>6</op>
+					<rhs>8500000</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act10" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">BootloaderDL</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act11" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>123</code>
+			<se>false</se>
+			<Str sr="arg0" ve="3">dd if=sdcard/TWRP/multibootloader.img of=/dev/block/platform/msm_sdcc.1/by-name/boot</Str>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="1"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>406</code>
+			<se>false</se>
+			<Str sr="arg0" ve="3">/sdcard/TWRP/multibootloader.img</Str>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="1"/>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>118</code>
+			<se>false</se>
+			<Str sr="arg0" ve="3">avalibeyaz.com/multibootloader/multibootloader.txt</Str>
+			<Str sr="arg1" ve="3"/>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="10"/>
+			<Str sr="arg6" ve="3">text/*</Str>
+			<Str sr="arg7" ve="3">/sdcard/TWRP/mbtool/localversion</Str>
+			<Int sr="arg8" val="1"/>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>61</code>
+			<se>false</se>
+			<Int sr="arg0" val="200"/>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>779</code>
+			<Str sr="arg0" ve="3">MultiBootloader Tool</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act7" ve="7">
+			<code>549</code>
+			<Str sr="arg0" ve="3">%IsBusy</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act8" ve="7">
+			<code>538</code>
+			<Str sr="arg0" ve="3">MultiBootloader Tool</Str>
+			<Str sr="arg1" ve="3">MultiBootloader installed!</Str>
+			<Img sr="arg2" ve="2"/>
+			<Int sr="arg3" val="0"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="3"/>
+		</Action>
+		<Action sr="act9" ve="7">
+			<code>43</code>
+		</Action>
+	</Task>
+	<Task sr="task4">
+		<cdate>1446031957619</cdate>
+		<edate>1447054494766</edate>
+		<id>4</id>
+		<nme>Main</nme>
+		<pri>100</pri>
+		<Action sr="act0" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%Ver</Str>
+			<Str sr="arg1" ve="3">1.01</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%IsBusy</lhs>
+					<op>3</op>
+					<rhs>yes</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act10" ve="7">
+			<code>118</code>
+			<se>false</se>
+			<Str sr="arg0" ve="3">avalibeyaz.com/multibootloader/multibootloader.txt</Str>
+			<Str sr="arg1" ve="3"/>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="10"/>
+			<Str sr="arg6" ve="3">text/*</Str>
+			<Str sr="arg7" ve="3">/sdcard/TWRP/mbtool/serverversion</Str>
+			<Int sr="arg8" val="1"/>
+		</Action>
+		<Action sr="act11" ve="7">
+			<code>417</code>
+			<se>false</se>
+			<Str sr="arg0" ve="3">/sdcard/TWRP/mbtool/serverversion</Str>
+			<Str sr="arg1" ve="3">%ServerVersion</Str>
+		</Action>
+		<Action sr="act12" ve="7">
+			<code>417</code>
+			<se>false</se>
+			<Str sr="arg0" ve="3">/sdcard/TWRP/mbtool/localversion</Str>
+			<Str sr="arg1" ve="3">%LocalVersion</Str>
+		</Action>
+		<Action sr="act13" ve="7">
+			<code>345</code>
+			<se>false</se>
+			<Int sr="arg0" val="0"/>
+			<Str sr="arg1" ve="3">%LocalVersion</Str>
+			<Str sr="arg2" ve="3">%LocalVersionSize</Str>
+		</Action>
+		<Action sr="act14" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%LocalVersion</lhs>
+					<op>0</op>
+					<rhs>%ServerVersion</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act15" ve="7">
+			<code>51</code>
+			<Str sr="arg0" ve="3">Main</Str>
+			<Str sr="arg1" ve="3">Button1</Str>
+			<Int sr="arg2" val="0"/>
+			<Str sr="arg3" ve="3"> Download &amp; Re-Install MultiBootloader v%ServerVersion</Str>
+			<Str sr="arg4" ve="3"/>
+		</Action>
+		<Action sr="act16" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act17" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%LocalVersion</lhs>
+					<op>6</op>
+					<rhs>%ServerVersion</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act18" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%LocalVersionSize</lhs>
+					<op>1</op>
+					<rhs>13</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act19" ve="7">
+			<code>51</code>
+			<Str sr="arg0" ve="3">Main</Str>
+			<Str sr="arg1" ve="3">Button1</Str>
+			<Int sr="arg2" val="0"/>
+			<Str sr="arg3" ve="3">Download &amp; Update MultiBootloader v%ServerVersion</Str>
+			<Str sr="arg4" ve="3"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%ROOT</lhs>
+					<op>2</op>
+					<rhs>yes</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act20" ve="7">
+			<code>54</code>
+			<Str sr="arg0" ve="3">Main</Str>
+			<Str sr="arg1" ve="3">Button1</Str>
+			<Str sr="arg2" ve="3">#FF0BFF00</Str>
+		</Action>
+		<Action sr="act21" ve="7">
+			<code>43</code>
+		</Action>
+		<Action sr="act22" ve="7">
+			<code>54</code>
+			<Str sr="arg0" ve="3">Main</Str>
+			<Str sr="arg1" ve="3">Button1</Str>
+			<Str sr="arg2" ve="3">#FFFFFFFF</Str>
+		</Action>
+		<Action sr="act23" ve="7">
+			<code>51</code>
+			<Str sr="arg0" ve="3">Main</Str>
+			<Str sr="arg1" ve="3">Button1</Str>
+			<Int sr="arg2" val="0"/>
+			<Str sr="arg3" ve="3">Download &amp; Install MultiBootloader v%ServerVersion</Str>
+			<Str sr="arg4" ve="3"/>
+		</Action>
+		<Action sr="act24" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act25" ve="7">
+			<code>43</code>
+		</Action>
+		<Action sr="act26" ve="7">
+			<code>54</code>
+			<Str sr="arg0" ve="3">Main</Str>
+			<Str sr="arg1" ve="3">Button1</Str>
+			<Str sr="arg2" ve="3">#FFFFFFFF</Str>
+		</Action>
+		<Action sr="act27" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act28" ve="7">
+			<code>47</code>
+			<Str sr="arg0" ve="3">Main</Str>
+			<Int sr="arg1" val="5"/>
+			<Int sr="arg2" val="100"/>
+			<Int sr="arg3" val="100"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="1"/>
+		</Action>
+		<Action sr="act29" ve="7">
+			<code>61</code>
+			<se>false</se>
+			<Int sr="arg0" val="200"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>549</code>
+			<Str sr="arg0" ve="3">%Conn</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act30" ve="7">
+			<code>43</code>
+		</Action>
+		<Action sr="act31" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">Sorry, need internet connection</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act32" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act33" ve="7">
+			<code>43</code>
+		</Action>
+		<Action sr="act34" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">Sorry, need root</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act35" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act36" ve="7">
+			<code>43</code>
+		</Action>
+		<Action sr="act37" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">Processing, please wait...</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act38" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>341</code>
+			<Int sr="arg0" val="0"/>
+			<Str sr="arg1" ve="3"/>
+			<Str sr="arg2" ve="3">%ConnType</Str>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%ConnType</lhs>
+					<op>3</op>
+					<rhs>none</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">Loading, please wait...</Str>
+			<Int sr="arg1" val="1"/>
+		</Action>
+		<Action sr="act7" ve="7">
+			<code>409</code>
+			<se>false</se>
+			<Str sr="arg0" ve="3">/sdcard/TWRP/mbtool</Str>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="1"/>
+		</Action>
+		<Action sr="act8" ve="7">
+			<code>46</code>
+			<se>false</se>
+			<Str sr="arg0" ve="3">Main</Str>
+		</Action>
+		<Action sr="act9" ve="7">
+			<code>549</code>
+			<Str sr="arg0" ve="3">%LocalVersion</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+	</Task>
+	<Task sr="task5">
+		<cdate>1446102964005</cdate>
+		<edate>1446240144523</edate>
+		<id>5</id>
+		<nme>KernelDLComplete</nme>
+		<pri>100</pri>
+		<Action sr="act0" ve="7">
+			<code>61</code>
+			<se>false</se>
+			<Int sr="arg0" val="200"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>779</code>
+			<Str sr="arg0" ve="3">MultiBootloader Tool</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>549</code>
+			<Str sr="arg0" ve="3">%IsBusy</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>538</code>
+			<Str sr="arg0" ve="3">MultiBootloader Tool</Str>
+			<Str sr="arg1" ve="3">Kernels downloaded!</Str>
+			<Img sr="arg2" ve="2"/>
+			<Int sr="arg3" val="0"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="3"/>
+		</Action>
+	</Task>
+	<Task sr="task6">
+		<cdate>1446035982239</cdate>
+		<edate>1446035982239</edate>
+		<id>6</id>
+		<pri>102</pri>
+		<Action sr="act0" ve="7">
+			<code>341</code>
+			<Int sr="arg0" val="0"/>
+			<Str sr="arg1" ve="3"/>
+			<Str sr="arg2" ve="3">%ConnType</Str>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%ConnType</lhs>
+					<op>3</op>
+					<rhs>none</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">KernelDL</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>43</code>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>49</code>
+			<se>false</se>
+			<Str sr="arg0" ve="3">Main</Str>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">Sorry, need internet connection</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>38</code>
+		</Action>
+	</Task>
+	<Task sr="task7">
+		<cdate>1446149816396</cdate>
+		<edate>1446149823531</edate>
+		<id>7</id>
+		<nme>Reboot</nme>
+		<Action sr="act0" ve="7">
+			<code>59</code>
+			<se>false</se>
+			<Int sr="arg0" val="0"/>
+		</Action>
+	</Task>
+	<Task sr="task8">
+		<cdate>1446035967019</cdate>
+		<edate>1446240101814</edate>
+		<id>8</id>
+		<nme>KernelDL</nme>
+		<Action sr="act0" ve="7">
+			<code>65</code>
+			<Str sr="arg0" ve="3">Main</Str>
+			<Str sr="arg1" ve="3">Button1</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>65</code>
+			<Str sr="arg0" ve="3">Main</Str>
+			<Str sr="arg1" ve="3">Button2</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act10" ve="7">
+			<code>118</code>
+			<se>false</se>
+			<Str sr="arg0" ve="3">avalibeyaz.com/multibootloader/stock_ext.zip</Str>
+			<Str sr="arg1" ve="3"/>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="120"/>
+			<Str sr="arg6" ve="3">application/zip</Str>
+			<Str sr="arg7" ve="3">/sdcard/TWRP/stock_ext.zip</Str>
+			<Int sr="arg8" val="1"/>
+		</Action>
+		<Action sr="act11" ve="7">
+			<code>422</code>
+			<se>false</se>
+			<Str sr="arg0" ve="3">/sdcard/TWRP/cm11_nand.zip</Str>
+			<Int sr="arg1" val="1"/>
+		</Action>
+		<Action sr="act12" ve="7">
+			<code>422</code>
+			<se>false</se>
+			<Str sr="arg0" ve="3">/sdcard/TWRP/cm11_ext.zip</Str>
+			<Int sr="arg1" val="1"/>
+		</Action>
+		<Action sr="act13" ve="7">
+			<code>422</code>
+			<se>false</se>
+			<Str sr="arg0" ve="3">/sdcard/TWRP/stock_nand.zip</Str>
+			<Int sr="arg1" val="1"/>
+		</Action>
+		<Action sr="act14" ve="7">
+			<code>422</code>
+			<se>false</se>
+			<Str sr="arg0" ve="3">/sdcard/TWRP/stock_ext.zip</Str>
+			<Int sr="arg1" val="1"/>
+		</Action>
+		<Action sr="act15" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">CheckKernel</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>65</code>
+			<Str sr="arg0" ve="3">Main</Str>
+			<Str sr="arg1" ve="3">Button3</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>523</code>
+			<Str sr="arg0" ve="3">MultiBootloader Tool</Str>
+			<Str sr="arg1" ve="3">Downloading kernels...</Str>
+			<Img sr="arg2" ve="2"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="1"/>
+			<Int sr="arg5" val="1"/>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>49</code>
+			<se>false</se>
+			<Str sr="arg0" ve="3">Main</Str>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%IsBusy</Str>
+			<Str sr="arg1" ve="3">yes</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>46</code>
+			<se>false</se>
+			<Str sr="arg0" ve="3">Main</Str>
+		</Action>
+		<Action sr="act7" ve="7">
+			<code>118</code>
+			<se>false</se>
+			<Str sr="arg0" ve="3">avalibeyaz.com/multibootloader/cm11_nand.zip</Str>
+			<Str sr="arg1" ve="3"/>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="120"/>
+			<Str sr="arg6" ve="3">application/zip</Str>
+			<Str sr="arg7" ve="3">/sdcard/TWRP/cm11_nand.zip</Str>
+			<Int sr="arg8" val="1"/>
+		</Action>
+		<Action sr="act8" ve="7">
+			<code>118</code>
+			<se>false</se>
+			<Str sr="arg0" ve="3">avalibeyaz.com/multibootloader/cm11_ext.zip</Str>
+			<Str sr="arg1" ve="3"/>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="120"/>
+			<Str sr="arg6" ve="3">application/zip</Str>
+			<Str sr="arg7" ve="3">/sdcard/TWRP/cm11_ext.zip</Str>
+			<Int sr="arg8" val="1"/>
+		</Action>
+		<Action sr="act9" ve="7">
+			<code>118</code>
+			<se>false</se>
+			<Str sr="arg0" ve="3">avalibeyaz.com/multibootloader/stock_nand.zip</Str>
+			<Str sr="arg1" ve="3"/>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="120"/>
+			<Str sr="arg6" ve="3">application/zip</Str>
+			<Str sr="arg7" ve="3">/sdcard/TWRP/stock_nand.zip</Str>
+			<Int sr="arg8" val="1"/>
+		</Action>
+	</Task>
+	<Task sr="task9">
+		<cdate>1446149827168</cdate>
+		<edate>1446149827168</edate>
+		<id>9</id>
+		<Action sr="act0" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">Reboot</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+	</Task>
+</TaskerData>
