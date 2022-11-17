@@ -1,4 +1,4 @@
-# tasker-standalone-app-multibootloader-nokia-x2
+# Tasker Standalone App Multibootloader Nokia X2
 Tasker-based Multibootloader configuration app for Nokia X2  
   
 HOW TO COMPILE:  
